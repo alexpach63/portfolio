@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+body, html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: Arial;
+}
+.form{
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+	width: 200px;
+	border: 1px solid #000;
+}
+.form--success{
+	border-color: green;
+}
+.form__elem{
+	outline: none;
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 14px;
+}
+.form__elem--invalid{
+	border-color: red;
+}
+.form__submit{
+	display: block;
+	width: 100%;
+}
+.form__result{
+	font-size: 12px;
+	text-align: center;
+}
+
+
+
